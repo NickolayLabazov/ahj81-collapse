@@ -1,0 +1,48 @@
+body {
+  background: #eee;
+  /* text-align: center; */
+}
+
+.button{
+  background-color: blue;
+  color: white;
+  border: 0px;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.textCont{ 
+  width: 300px;
+  padding: 10px 10px 0px 10px;
+  border: 1px solid blue;
+  height: 80px;  
+}
+
+.textContDiv{
+  overflow: hidden;
+  width: 400px;
+  padding: 0px;  
+  height: 10px;
+  transition: height 3s ease 0s; 
+}
+
+.textContDivClick{ 
+  height: 120px;
+  overflow: hidden;
+  width: 400px;
+  padding: 0px;   
+  transition: height 2s ease 0s;   
+}
+
+.copy{
+  border: 0px;
+  color: grey;
+  background-color:  #eee;
+  margin-left: 280px;
+}
+
+
+
+
